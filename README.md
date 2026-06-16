@@ -20,10 +20,10 @@ This repository contains a Python-based numerical simulation that models the pla
 ## Features
 
 - **Multi-Surface Comparison:** Simulates three distinct physical surface textures:
-  - **Polyester** ($\mu_s = 0.8$, $\mu_k = 0.6$)
-  - **Granite** ($\mu_s = 0.41$, $\mu_k = 0.38$)
-  - **Scotch Tape (Backside)** ($\mu_s = 0.4$, $\mu_k = 0.3$)
-- **Multi-Angle Analysis:** Evaluates three critical release angles ($75^\circ$, $45^\circ$, and $15^\circ$) simultaneously on each canvas.
+  - **cloth** ($\mu_s = 1.9$, $\mu_k = 0.8$)
+  - **marble** ($\mu_s = 0.9$, $\mu_k = 0.33$)
+  - **steel** ($\mu_s = 0.27$, $\mu_k = 0.185$)
+- **Multi-Angle Analysis:** Evaluates three critical release angles ($75^\circ$, $26^\circ$, and $5.6^\circ$) simultaneously on each canvas.
 - **High-Resolution Discrete Tracking:** Captures state transitions at a discrete time step of $\Delta t = 0.005\text{ s}$.
 - **Advanced Visualization:** Plots continuous trajectories coupled with hollow circle markers (`facecolors='none'`) to visualize kinematic density (velocity/acceleration changes) seamlessly.
 
